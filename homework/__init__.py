@@ -1,10 +1,6 @@
 import pandas as pd  #  type: ignore
 
-dataframe = pd.read_csv(
-    "../files/input/sentences.csv.zip",
-    index_col=False,
-    compression="zip",
-)
+dataframe = pd.read_csv("files/input/sentences.csv.zip", index_col=False, compression="zip")
 dataframe.head()
 
 #
